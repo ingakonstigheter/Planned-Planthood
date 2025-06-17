@@ -20,7 +20,7 @@
 						<line x1="16" x2="56" y1="46" y2="46" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
 					</g>
 				</svg>
-				<nav class="page-header__nav">
+				<nav class="page-header__nav nav">
 					<a href="index.html" class="logo header__logo ">
 						<svg
 							class="svg--stroke-green"
@@ -46,7 +46,7 @@
 							PLANNED PLANTHOOD
 						</h1>
 					</a>
-					<ul class="nav__list" role="list">
+					<ul class="nav__list nav--visually-hidden" role="list">
 						<li><a href="index.html">HEM</a></li>
 						<li><a href="#">HISTORIK</a></li>
 						<li><a href="#">TIPS</a></li>
@@ -61,23 +61,23 @@
 			<h2> Uppskattade växter</h2>
 			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.</p>
 			<figure class="gallery bg-light">
-				<img class="gallery__indexA" src="Assets/images/18-300x400.jpg" alt="">
-				<img class="gallery__indexB" src="Assets/images/19-300x400.jpg" alt="">
-				<img class="gallery__indexC" src="Assets/images/35-300x400.jpg" alt="">
-				<img class="gallery__indexD" src="Assets/images/80-300x400.jpg" alt="">
-				<img class="gallery__indexE" src="Assets/images/112-300x400.jpg" alt="">
-				<img class="gallery__indexF" src="Assets/images/82-300x400.jpg" alt="">
+				<img class="gallery__indexA" src="Assets/images/18-300x400.jpg" data-index="a" alt="">
+				<img class="gallery__indexB" src="Assets/images/19-300x400.jpg" data-index="b" alt="">
+				<img class="gallery__indexC" src="Assets/images/35-300x400.jpg" data-index="c" alt="">
+				<img class="gallery__indexD" src="Assets/images/80-300x400.jpg" data-index="d" alt="">
+				<img class="gallery__indexE" src="Assets/images/112-300x400.jpg" data-index="e" alt="">
+				<img class="gallery__indexF" src="Assets/images/82-300x400.jpg" data-index="f" alt="">
 			</figure>
 		</section>
 
 		<div class="mw bg-light">
 			<aside class="newsletter mw-dynamic">
-				<div class="wrapper">
+				<div class="newsletter__info">
 					<h2>Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!</h2>
 					<form class="newsletter__form" action="#">
 						<label for="userEmail" class="visually-hidden">Ange din mail adress</label>
 						<input type="email" name="userEmail" id="userEmail" placeholder="email@domain.com">
-						<button type="button">Skicka</button>
+						<button type="button" class="button">Skicka</button>
 					</form>
 				</div>
 				<figure class="bg-circular-green">
@@ -166,311 +166,311 @@
 			</aside>
 		</div>
 		
-		<div class="mw-content">
-			<article class="cards">
-				<article class="card">
-					<figure class="watermark">
-						<img src="Assets/images/10-300x400.jpg" alt="">
-						<svg
+
+		<article class="cards mw-content">
+			<article class="card">
+				<figure class="watermark">
+					<img src="Assets/images/10-300x400.jpg" alt="">
+					<svg
+					viewBox="0 0 71 93"
+					fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
+						fill="white"
+					/>
+					<path
+						d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
+						fill="white"
+					/>
+					<path
+						d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					<path
+						d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					</svg>
+				</figure>
+				<ul role="list">
+					<li data-category="flower" >BLOMMOR</li>
+					<li data-category="edible">ÄTBART</li>
+					<li data-category="green">GRÖNSKA</li>
+				</ul>
+				<header class="card__header">
+					<h3>Gurka</h3>
+				</header>
+				
+				<p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning, omplantering, duschning och gödsling.</p>
+				
+				<footer class="card__footer">
+					<img src="Assets/images/icon1.png" alt="">
+					<div>
+						<p>Coolio</p>
+						<time datetime="2024-04-01">2024-04-01</time>
+					</div>
+				</footer>
+			</article>
+			
+			<article class="card">
+				<figure class="watermark">
+					<img src="Assets/images/11-300x400.jpg" alt="">
+					<svg
 						viewBox="0 0 71 93"
 						fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
-							fill="white"
-						/>
-						<path
-							d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
-							fill="white"
-						/>
-						<path
-							d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						</svg>
-					</figure>
-					<ul role="list">
-						<li class="clr-flower">BLOMMOR</li>
-						<li class="clr-edible">ÄTBART</li>
-						<li class="clr-green">GRÖNSKA</li>
-					</ul>
-					<header class="card__header">
-						<h3>Gurka</h3>
-					</header>
-					
-					<p>Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning, omplantering, duschning och gödsling.</p>
-					
-					<footer class="card__footer">
-						<img src="Assets/images/icon1.png" alt="">
-						<div>
-							<p>Coolio</p>
-							<time datetime="2024-04-01">2024-04-01</time>
-						</div>
-					</footer>
-				</article>
+						xmlns="http://www.w3.org/2000/svg">
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
+						fill="white"
+					/>
+					<path
+						d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
+						fill="white"
+					/>
+					<path
+						d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					<path
+						d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					</svg>
+				</figure>
+				<ul role="list">
+					<li data-category="sunloving">SOLÄLSKANDE</li>
+					<li data-category="easy">LÄTTODLAT</li>
+					<li data-category="edible">ÄTBART</li>
+				</ul>
+				<h3>Tomat</h3>
+				<p>En perfekt grönsak att odla på balkongen eller i trädgården. Ger riklig skörd under sommaren.</p>
 				
-				<article class="card">
-					<figure class="watermark">
-						<img src="Assets/images/11-300x400.jpg" alt="">
-						<svg
-							viewBox="0 0 71 93"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
-							fill="white"
-						/>
-						<path
-							d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
-							fill="white"
-						/>
-						<path
-							d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						</svg>
-					</figure>
-					<ul role="list">
-						<li class="clr-sunloving">SOLÄLSKANDE</li>
-						<li class="clr-easy">LÄTTODLAT</li>
-						<li class="clr-edible">ÄTBART</li>
-					</ul>
-					<h3>Tomat</h3>
-					<p>En perfekt grönsak att odla på balkongen eller i trädgården. Ger riklig skörd under sommaren.</p>
-					
-					<footer class="card__footer">
-						<img src="Assets/images/icon2.png" alt="">
-						<div>
-							<p>Anna Odlare</p>
-							<time datetime="2024-12-05">2024-12-05</time>
-						</div>
-					</footer>
-				</article>
-				
-				<article class="card">
-					<figure class="watermark">
-						<img src="Assets/images/12-300x400.jpg" alt="">
-						<svg
-							viewBox="0 0 71 93"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
-							fill="white"
-						/>
-						<path
-							d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
-							fill="white"
-						/>
-						<path
-							d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						</svg>
-					</figure>
-					<ul role="list">
-						<li class="clr-decorative">DEKORATIVT</li>
-						<li class="clr-colorful">FÄRGSTARKT</li>
-						<li class="clr-robust">TÅLIG</li>
-						<li class="clr-flower">BLOMMOR</li>
-					</ul>
-					<header class="card__header">
-						<h3>Pelargon</h3>
-					</header>
-					
-					<p>En vacker och lättskött blomma som trivs både inne och ute under sommaren.</p>
-					
-					<footer class="card__footer">
-						<img src="Assets/images/icon3.png" alt="">
-						<div>
-							<p>Blomsterkalle</p>
-							<time datetime="2024-12-03">2024-12-03</time>
-						</div>
-					</footer>
-				</article>
-				
-				<article class="card">
-					<figure class="watermark">
-						<img src="Assets/images/13-300x400.jpg" alt="">
-						<svg
-							viewBox="0 0 71 93"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
-							fill="white"
-						/>
-						<path
-							d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
-							fill="white"
-						/>
-						<path
-							d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						</svg>
-					</figure>
-					<ul role="list">
-						<li class="clr-decorative">KRYDDOR</li>
-						<li class="clr-fragrant">DOFTANDE</li>
-						<li class="clr-sunloving">SOLÄLSKANDE</li>
-					</ul>
-					<header class="card__header">
-						<h3>Basilika</h3>
-					</header>
-					<p>En fantastisk krydda för pastarätter och sallader. Trivs bäst i ett soligt fönster.</p>
-					<footer class="card__footer">
-						<img src="Assets/images/icon4.png" alt="">
-						<div>
-							<p>Krydd-Malin</p>
-							<time datetime="2024-12-07">2024-12-07</time>
-						</div>
-					</footer>
-				</article>
-				
-				<article class="card">
-					<figure class="watermark">
-						<img src="Assets/images/14-300x400.jpg" alt="">
-						<svg
-							viewBox="0 0 71 93"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
-							fill="white"
-						/>
-						<path
-							d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
-							fill="white"
-						/>
-						<path
-							d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						</svg>
-					</figure>
-					<ul role="list">
-						<li class="clr-fast">SNABBVÄXANDE</li>
-						<li class="clr-edible">ÄTBART</li>
-						<li class="clr-green">GRÖNSKA</li>
-					</ul>
-					<header class="card__header">
-						<h3>Sallad</h3>
-					</header>
-					
-					<p>Sallad är en av de enklaste grönsakerna att odla och ger snabba resultat för färska måltider.</p>
-					
-					<footer class="card__footer">
-						<img src="Assets/images/icon5.png" alt="">
-						<div>
-							<p>Grönis</p>
-							<time datetime="2024-12-06">2024-12-06</time>
-						</div>
-					</footer>
-				</article>
-				
-				<article class="card">
-					<figure class="watermark">
-						<img src="Assets/images/15-300x400.jpg" alt="">
-						<svg
-							viewBox="0 0 71 93"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-						<path
-							fill-rule="evenodd"
-							clip-rule="evenodd"
-							d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
-							fill="white"
-						/>
-						<path
-							d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
-							fill="white"
-						/>
-						<path
-							d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						<path
-							d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
-							stroke="white"
-							stroke-width="6"
-							stroke-linejoin="round"
-						/>
-						</svg>
-					</figure>
-					<ul role="list">
-						<li class="clr-air">LUFTFUKTANDE</li>
-						<li class="clr-green">GRÖNSKA</li>
-						<li class="clr-decorative">DEKORATIVT</li>
-					</ul>
-					<header class="card__header">
-						<h3>Ormbunke</h3>
-					</header>
-					
-					<p>En klassisk växt som passar perfekt i badrummet eller på skuggiga platser.</p>
-					
-					<footer class="card__footer">
-						<img src="Assets/images/icon6.png" alt="">
-						<div>
-							<p>Naturvännen</p>
-							<time datetime="2024-12-08">2024-12-08</time>
-						</div>
-					</footer>
-				</article>
+				<footer class="card__footer">
+					<img src="Assets/images/icon2.png" alt="">
+					<div>
+						<p>Anna Odlare</p>
+						<time datetime="2024-12-05">2024-12-05</time>
+					</div>
+				</footer>
 			</article>
-		</div>
+			
+			<article class="card">
+				<figure class="watermark">
+					<img src="Assets/images/12-300x400.jpg" alt="">
+					<svg
+						viewBox="0 0 71 93"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
+						fill="white"
+					/>
+					<path
+						d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
+						fill="white"
+					/>
+					<path
+						d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					<path
+						d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					</svg>
+				</figure>
+				<ul role="list">
+					<li data-category="decorative">DEKORATIVT</li>
+					<li data-category="colorful">FÄRGSTARKT</li>
+					<li data-category="robust">TÅLIG</li>
+					<li data-category="flower">BLOMMOR</li>
+				</ul>
+				<header class="card__header">
+					<h3>Pelargon</h3>
+				</header>
+				
+				<p>En vacker och lättskött blomma som trivs både inne och ute under sommaren.</p>
+				
+				<footer class="card__footer">
+					<img src="Assets/images/icon3.png" alt="">
+					<div>
+						<p>Blomsterkalle</p>
+						<time datetime="2024-12-03">2024-12-03</time>
+					</div>
+				</footer>
+			</article>
+			
+			<article class="card">
+				<figure class="watermark">
+					<img src="Assets/images/13-300x400.jpg" alt="">
+					<svg
+						viewBox="0 0 71 93"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
+						fill="white"
+					/>
+					<path
+						d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
+						fill="white"
+					/>
+					<path
+						d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					<path
+						d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					</svg>
+				</figure>
+				<ul role="list">
+					<li data-category="decorative">KRYDDOR</li>
+					<li data-category="fragrant">DOFTANDE</li>
+					<li data-category="sunloving">SOLÄLSKANDE</li>
+				</ul>
+				<header class="card__header">
+					<h3>Basilika</h3>
+				</header>
+				<p>En fantastisk krydda för pastarätter och sallader. Trivs bäst i ett soligt fönster.</p>
+				<footer class="card__footer">
+					<img src="Assets/images/icon4.png" alt="">
+					<div>
+						<p>Krydd-Malin</p>
+						<time datetime="2024-12-07">2024-12-07</time>
+					</div>
+				</footer>
+			</article>
+			
+			<article class="card">
+				<figure class="watermark">
+					<img src="Assets/images/14-300x400.jpg" alt="">
+					<svg
+						viewBox="0 0 71 93"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
+						fill="white"
+					/>
+					<path
+						d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
+						fill="white"
+					/>
+					<path
+						d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					<path
+						d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					</svg>
+				</figure>
+				<ul role="list">
+					<li data-category="fast">SNABBVÄXANDE</li>
+					<li data-category="edible">ÄTBART</li>
+					<li data-category="green">GRÖNSKA</li>
+				</ul>
+				<header class="card__header">
+					<h3>Sallad</h3>
+				</header>
+				
+				<p>Sallad är en av de enklaste grönsakerna att odla och ger snabba resultat för färska måltider.</p>
+				
+				<footer class="card__footer">
+					<img src="Assets/images/icon5.png" alt="">
+					<div>
+						<p>Grönis</p>
+						<time datetime="2024-12-06">2024-12-06</time>
+					</div>
+				</footer>
+			</article>
+			
+			<article class="card">
+				<figure class="watermark">
+					<img src="Assets/images/15-300x400.jpg" alt="">
+					<svg
+						viewBox="0 0 71 93"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M10 39.2725C6.13401 39.2725 3 42.4065 3 46.2725V49.079C3 52.1558 4.98508 54.769 7.74438 55.7076V64.6762C7.74438 80.162 20.2981 92.7157 35.7839 92.7157C51.2697 92.7157 63.8234 80.162 63.8234 64.6762V55.612C66.4446 54.6005 68.3041 52.0569 68.3041 49.079V46.2725C68.3041 42.4065 65.1701 39.2725 61.3041 39.2725H10ZM27.8766 56.079H22.2052L22.1124 50.079H27.8766V56.079ZM32.6209 56.079H57.8234V64.6762C57.8234 76.8483 47.956 86.7157 35.7839 86.7157C23.6118 86.7157 13.7444 76.8483 13.7444 64.6762V56.079H16.4059L16.3131 50.079H10C9.44772 50.079 9 49.6313 9 49.079V46.2725C9 45.7202 9.44772 45.2725 10 45.2725H61.3041C61.8564 45.2725 62.3041 45.7202 62.3041 46.2725V49.079C62.3041 49.6313 61.8564 50.079 61.3041 50.079H32.6209V56.079Z"
+						fill="white"
+					/>
+					<path
+						d="M38.7837 17.233C38.7837 15.5761 37.4405 14.233 35.7837 14.233C34.1268 14.233 32.7837 15.5761 32.7837 17.233H38.7837ZM38.7837 41.4818V17.233H32.7837V41.4818H38.7837Z"
+						fill="white"
+					/>
+					<path
+						d="M3.89136 3H21.5508C29.4114 3 35.7838 9.37232 35.7838 17.233V17.233H18.1243C10.2637 17.233 3.89136 10.8607 3.89136 3V3Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					<path
+						d="M67.6763 10.1165H50.0168C42.1562 10.1165 35.7839 16.4888 35.7839 24.3495V24.3495H53.4433C61.3039 24.3495 67.6763 17.9771 67.6763 10.1165V10.1165Z"
+						stroke="white"
+						stroke-width="6"
+						stroke-linejoin="round"
+					/>
+					</svg>
+				</figure>
+				<ul role="list">
+					<li data-category="air">LUFTFUKTANDE</li>
+					<li data-category="green">GRÖNSKA</li>
+					<li data-category="decorative">DEKORATIVT</li>
+				</ul>
+				<header class="card__header">
+					<h3>Ormbunke</h3>
+				</header>
+				
+				<p>En klassisk växt som passar perfekt i badrummet eller på skuggiga platser.</p>
+				
+				<footer class="card__footer">
+					<img src="Assets/images/icon6.png" alt="">
+					<div>
+						<p>Naturvännen</p>
+						<time datetime="2024-12-08">2024-12-08</time>
+					</div>
+				</footer>
+			</article>
+		</article>
+
 
 		<div class="mw bg-light">
 			<footer class="main-footer mw-dynamic">
@@ -506,7 +506,7 @@
 				<div class="main-footer__info flow mw">
 					<h2>Våra tidigare odlingar</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione quia eos pariatur deserunt veritatis. Tenetur, ipsum! Iusto delectus ipsam esse pariatur rerum eveniet nostrum, dolor distinctio nam quaerat doloribus?</p>
-					<a href="#">Planterade plantor</a>
+					<button href="#" class="button">Planterade plantor</button>
 				</div>
 			</footer>
 		</div>
