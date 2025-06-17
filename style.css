@@ -144,7 +144,8 @@ main {
     --icon-h: 5rem;
 
     --max-width: 100%;
-    --max-width-content: min(calc(100% - var(--space-rem-m)), 60rem);
+    --max-width-content: min(calc(100% - var(--space-rem-m)), 70rem);
+    --max-width-dynamic-content: min(500px, 70vw, 98vw)
 }
 
 /* Utilities */
@@ -157,6 +158,7 @@ main {
     white-space: nowrap;
     width: 1px;
 }
+
 .mw {
     width: var(--max-width);
 }
@@ -165,11 +167,8 @@ main {
     width: var(--max-width-content);
 }
 .mw-dynamic {
-    max-width: 60%;
+    max-width: var(--max-width-dynamic-content);
 
-    @media (max-width: 700px) {
-        max-width: var(--max-width-content);
-    }
 }
 
 .svg--stroke-green {
@@ -443,7 +442,7 @@ main {
 /* Cards */
 .cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
     grid-auto-rows: auto auto auto 1fr auto;
     justify-content: center;
     gap: var(--space-rem-sm);
@@ -560,7 +559,7 @@ main {
     display: flex;
     align-items: center;
     gap: var(--space-rem-sm);
-    padding: var(--space-rem-m);
+    padding: var(--space-rem-m) 0;
 
     .main-footer__info {
         display: flex;
